@@ -21,8 +21,8 @@ const hospitalSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  pincode: {
-    type: String, //Recommended type for pincode is String
+  pinCode: {
+    type: String, //Recommended type for pinCode is String
     required: true
   },
   speciacializedIn: {
